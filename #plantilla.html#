@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+	<!-- head: 
+	Contiene los metadatos:
+	- Título del documento
+	- Conjunto de caracteres
+	- Scripts (css, JS) -->
+	<head>
+		<!-- Pon un título a tu paginita-->
+		<title>Mi Página</title>
+		<!--Codificación utf-8 -->
+		<meta charset="utf-8">
+		<!-- Scripts -->
+		<link rel="stylesheet" type="text/css" href="./css/estilo.css">
+	</head>
+	<!--body: Aquí va todo el contenido de la página -->
+	<body>
+		<!-- Esto es un comentario -->
+		<!-- Encabezados -->
+		<h1>Arcoiris</h1>
+		<h2>Llena de colores tu vida</h2>
+		<h3>Encabezado 3</h3>
+		<!--Párrafos:
+		- Salto de línea
+		- Espacios
+		- Texto preformateado -->
+		<h2>Los colores del Arcoiris</h2>
+		<p> El arcoíris es un fenómeno meteorológico que tiene aparece en el cielo cuando los rayos solares atraviesan pequeñas gotas de agua presentes en la atmósfera terrestre. El arco iris llama mucho la atención ya que regala una imagen única, donde un arco con colores brillantes se puede ver en el cielo. Los colores que integran el arco iris son siete y cada uno con un significado.
+		</p>
+		<h3>Texto preformateado</h3>
+		<pre>Este es un texto preformateado.
+		  Hace calor.
+		  </pre>
+	
+		<!-- Resaltar el texto -->
+
+		<!-- Negritas -->
+		<!-- Itálicas -->
+
+		<!--Listas -->
+		<!--Ordenadas-->
+
+		<!--Desordenadas
+	 	Opciones del atributo "type":
+	 	- disc
+	 	- square
+	 	- circle
+	 	-->
+
+	 	<!--Links-->
+
+	 	<!--Imágenes -->
+	 	<!--url-->
+	 	<!-- horizontal rule: es un break temático -->
+	 	<!--computadora-->
+
+		<!-- Tablas 
+		- tr - filas
+		- th - encabezado de tabla
+		- td - celda de tabla 
+		  -->
+		<h2>Tablas</h2>
+		<table>
+		  <tr>
+		    <th>Materia</th>
+		    <th>Promedio</th>
+		  </tr>
+		  <tr>
+		    <td>Física</td>
+		    <td>9</td>
+		  </tr>
+		  <tr>
+		    <td>Literat</td>
+		    <td>9</td>
+		  </tr>
+		</table>
+		<!--Entrada de datos-->
+		  <!--Formularios -->
+		  <form>
+		    <p>¿Cuál es tu color favorito?</p>
+		    Rosa <input type="checkbox" name="Rosa"/><br/>
+		    Azul <input type="checkbox" name="Azul"/><br/>
+		    Verde <input type="checkbox" name="Verde"/><br/>
+		    Otro <input type="checkbox" name="Otro"/><br/>
+		    <p>Escribe aquí tu color favorito</p>
+		    Color <input type="text" name="Color"/>
+		    <br/>
+		    <input type="submit" name="enviar" value="Éste es mi color favorito"/>
+		 <!-- Áreas de texto -->
+		  <h2>Área de Texto</h2>
+		  <textarea>Qué estás pensando?</textarea>
+
+		  <!-- Videos -->
+		  <h2>Videos</h2>
+                  <iframe width="420" height="315" src="https://www.youtube.com/watch?v=gBeYkZiaSB8">
+		  </iframe>
+		  
+		<!-- Botones -->
+
+		<!--JavaScript-->
+	</body>
+</html>
